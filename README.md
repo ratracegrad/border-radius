@@ -30,6 +30,10 @@ iOS3 needs -webkit- prefix. This applies only to an iPhone 3GS or iPad 1 that ha
 ##Basic Demonstration of border-radius property
 Here are two demonstrations of the border radius. The value supplied for the property can be in px, rem, em or %.
 
+![border radius syntax](images/image2.png)
+
+![border radius syntax](images/image3.png)
+
 For the first div a rounded corner of 8px is applied to every corner of the div. In the second example every corner has a rounded corner of 50% applied which creates a circle.
 
 With just one value, border-radius will be the same on all four corners of an element as shown above. You do have the option of specifying a different value for each corner.
