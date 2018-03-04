@@ -40,26 +40,56 @@ With just one value, border-radius will be the same on all four corners of an el
 
 When you specify individual values then it is applied in this order: top left, top right, bottom right, bottom left. Here is an example:
 
+![border radius syntax](images/image4.png)
+
+![border radius syntax](images/image5.png)
+
 ##Elliptical Edges
 The edges do not have to be circular, it can be elliptical. To create an elliptical edge you put a slash (“/”) between two values. Here is an example:
+
+![border radius syntax](images/image6.png)
+
+![border radius syntax](images/image7.png)
 
 ##Creating our calculator
 We are going to apply what we have just learned about border-radius to create this calculator:
 
+![border radius syntax](images/image8.png)
+
 ##Calculator Frame
 First we need to create the frame for our calculator. The top of the calculator will have an arch and the bottom will have rounded edges. To create this design we will specify a value for each individual corner like this:
+
+![border radius syntax](images/image9.png)
+
+![border radius syntax](images/image10.png)
 
 ##Calculator result frame
 The top of the calculator contains the total that has been calculated. It is comprised of two parts: the outer frame and the input area that contains the total. The outer frame uses the exact same border-radius of the frame to have the arch. Here is the styling for these two items:
 
+![border radius syntax](images/image11.png)
+
+![border radius syntax](images/image12.png)
+
 ##Calculator Logo and Power Button
 The next items to add to our calculator is the logo “BLAND INSTRUMENTS” and the power button. We will use the code in #demo-four for the logo and the code in #demo-two for the power button. It looks like this:
+
+![border radius syntax](images/image13.png)
+
+![border radius syntax](images/image14.png)
 
 ##Calculator Buttons
 Next we are going to create a styling for each calculator button. We are going to specify a style for each individual corner and we are going to provide two values for each corner. This produces a hand drawn look and feel for the buttons. Here is the code:
 
+![border radius syntax](images/image15.png)
+
+![border radius syntax](images/image16.png)
+
 ##Enter button
 The last thing we need to add to our calculator is the ENTER button. We will be using the code from #demo-one for this button: Here is the code:
+
+![border radius syntax](images/image17.png)
+
+![border radius syntax](images/image18.png)
 
 ##Button Animation
 The last thing we are going to add to our calculator is animation for the button when a user hovers over the button. This simulates the action of the button actually being pressed. 
@@ -68,4 +98,8 @@ To accomplish this we are going to add a box-shadow to our buttons. This is the 
 
 To provide the animation we are going to add a transition to the button. Then we will supply a different box-shadow for the buttons when you hover over them. Here is the code:
 
+![border radius syntax](images/image19.png)
+
 And here is our finished calculator:
+
+![border radius syntax](images/image20.png)
